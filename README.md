@@ -34,7 +34,7 @@ docker run -d -p 22001:22 \
    simonswine/dropbear
 
 # Add a public key
-echo "ssh-rsa [...]" > /root/.ssh/authorized_keys
+echo "ssh-rsa [...]" > /_container1/ssh/authorized_keys
 ```
 ### Example with capistrano
 * https://www.simon.im/netz/2014/11/secure-capistrano-deployment-with-root-rights
